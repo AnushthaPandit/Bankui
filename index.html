@@ -36,6 +36,7 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
   </head>
   <body>
+    <!-- first navbar start -->
     <nav class="nav-bar">
       <!-- <img src="./images/logo.svg" alt="" /> -->
       <div class="main-title">BankOfMaharastra</div>
@@ -52,63 +53,95 @@
         <i class="bi bi-box-arrow-in-right" style="color: aliceblue"></i>
       </button>
     </nav>
+    <!-- first navbar ends -->
 
     <!-- second navbar start-->
-    <nav class="nav-bar-sec">
+
+    <nav class="nav-bar-sec container">
       <!-- <img src="./images/logo.svg" alt="logo-img" />
         <div class="main-title">BankOfMaharastra</div> -->
 
       <div class="nav-items-sec">
         <div class="dropdown">
-          <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a
+            class="dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
             Personal
           </a>
-        
-          <ul class="dropdown-menu ">
+
+          <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </div>
         <div class="dropdown">
-          <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a
+            class="dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
             Personal
           </a>
-        
-          <ul class="dropdown-menu ">
+
+          <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </div>
         <div class="dropdown">
-          <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a
+            class="dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
             MSME
           </a>
-        
-          <ul class="dropdown-menu ">
+
+          <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </div>
         <div class="dropdown">
-          <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a
+            class="dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
             Blog
           </a>
-        
-          <ul class="dropdown-menu ">
+
+          <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </div>
         <div class="dropdown">
-          <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a
+            class="dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
             Carriers
           </a>
-        
-          <ul class="dropdown-menu ">
+
+          <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -117,7 +150,10 @@
       </div>
     </nav>
 
-    <!-- <div id="carouselExampleCaptions" class="carousel slide">
+    <!-- second navbar end-->
+
+    <!-- Main banner image section start -->
+    <div class="carousel slide">
       <div class="carousel-indicators">
         <button
           type="button"
@@ -142,33 +178,21 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img
-            src="data:image/jpeg;base64,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"
-            class="d-block w-100"
-            alt=""
-          />
+          <img src="./img/bg.png" class="d-block w-100" alt="" />
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img
-            src="data:image/jpeg;base64,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"
-            class="d-block w-100"
-            alt=""
-          />
+          <img src="./img/bg.png" class="d-block w-100" alt="" />
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img
-            src="data:image/jpeg;base64,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"
-            class="d-block w-100"
-            alt=""
-          />
+          <img src="./img/bg.png" class="d-block w-100" alt="" />
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>
@@ -193,147 +217,207 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div> -->
-   
-    <!-- second navbar end-->
-
-
-
-
+    </div>
+    <!-- Main banner image section end -->
 
     <!-- image gallery start -->
 
     <div class="container text-center">
       <div class="row">
         <div class="col-8">
-          <span  class="h5">Photo Gallery</span>
+          <span class="h5">Photo Gallery</span>
         </div>
         <div class="col-4">
           <span class="h5">From the Desk of Top Management</span>
         </div>
       </div>
-     <div class="row r">
-      <div class="col-8">
-        <div class="row r-1">
-          <img src="./img/pic1.jpg" alt="" class="col-4">
-          <img src="./img/pic1.jpg" alt="" class="col-4">
-          <img src="./img/pic1.jpg" alt="" class="col-4">
+      <div class="row r">
+        <div class="col-8">
+          <div class="row r-1">
+            <img src="./img/pic1.jpg" alt="" class="col-4" />
+            <img src="./img/pic1.jpg" alt="" class="col-4" />
+            <img src="./img/pic1.jpg" alt="" class="col-4" />
+          </div>
+          <div class="row r-2">
+            <img src="./img/pic1.jpg" alt="" class="col-4" />
+            <img src="./img/pic1.jpg" alt="" class="col-4" />
+            <img src="./img/pic1.jpg" alt="" class="col-4" />
+          </div>
         </div>
-        <div class="row r-2">
-          <img src="./img/pic1.jpg" alt="" class="col-4">
-          <img src="./img/pic1.jpg" alt="" class="col-4">
-          <img src="./img/pic1.jpg" alt="" class="col-4">
+        <div class="col-4">
+          <img src="./img/pic-2.jpg" alt="" class="col-12" />
         </div>
       </div>
-      <div class="col-4">
-        <img src="./img/pic-2.jpg" alt="" class="col-12">
-      </div>
-     </div>
-  </div>
+    </div>
 
-  <!-- image gallery ends -->
+    <!-- image gallery ends -->
 
-  <!-- three part section starts -->
+    <!-- three part section starts -->
 
-  <div class="container text-center item-center">
-    <div class="row">
+    <div class="container text-center item-center">
+      <div class="row">
         <div class="carousel slide col-4 div">
+          <h5>Carousel 1</h5>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./img/img-3.jfif" class="d-block w-100" alt="./img/img-3.jfif">
+              <img
+                src="./img/img-4.png"
+                class="d-block w-100"
+                alt="./img/img-4.png"
+              />
             </div>
             <div class="carousel-item">
-              <img src="./img/img-3.jfif" class="d-block w-100" alt="./img/img-3.jfif">
+              <img
+                src="./img/img-4.png"
+                class="d-block w-100"
+                alt="./img/img-4.png"
+              />
             </div>
             <div class="carousel-item">
-              <img src="./img/img-3.jfif" class="d-block w-100" alt="./img/img-3.jfif">
+              <img
+                src="./img/img-4.png"
+                class="d-block w-100"
+                alt="./img/img-4.png"
+              />
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      <div class="col-4 div">
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-          <h4 id="scrollspyHeading1">First heading</h4>
-          <p>...</p>
-          <h4 id="scrollspyHeading2">Second heading</h4>
-          <p>...</p>
-          <h4 id="scrollspyHeading3">Third heading</h4>
-          <p>...</p>
-          <h4 id="scrollspyHeading4">Fourth heading</h4>
-          <p>...</p>
-          <h4 id="scrollspyHeading5">Fifth heading</h4>
-          <p>...</p>
-        </div>
-      </div>
-      <div class="carousel slide col-4 div">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/img-3.jfif" class="d-block w-100" alt="./img/img-3.jfif">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/img-3.jfif" class="d-block w-100" alt="./img/img-3.jfif">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/img-3.jfif" class="d-block w-100" alt="./img/img-3.jfif">
+        <div class="col-4 div">
+          <div
+            data-bs-spy="scroll"
+            data-bs-target="#navbar-example2"
+            data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true"
+            class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+            tabindex="0"
+          >
+            <h5>list of links</h5>
+            <ul>
+              <li><a href="#">List item 1</a></li>
+              <li><a href="#">List item 1</a></li>
+              <li><a href="#">List item 1</a></li>
+              <li><a href="#">List item 1</a></li>
+              <li><a href="#">List item 1</a></li>
+            </ul>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel slide col-4 div">
+          <h5>Carousel 2</h5>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/img-1.png"
+                class="d-block w-100"
+                alt="./img/img-1.png"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/img-1.png"
+                class="d-block w-100"
+                alt="./img/img-1.png"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/img-1.png"
+                class="d-block w-100"
+                alt="./img/img-1.png"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     </div>
 
-  <!-- three part section ends -->
+    <!-- three part section ends -->
 
-  <!-- footer section starts -->
-  <footer>
-    <div class="container">
-      <div class="row quickLinks">
-        <div class="col-2 linkBox">
-        <i class="fas fa-image"></i>
-        <span class="linkText">Photo Gallery</span>
+    <!-- footer section starts -->
+    <footer>
+      <div class="container">
+        <div class="row quickLinks">
+          <div class="col-2 linkBox">
+            <i class="fas fa-image"></i>
+            <span class="linkText">Photo Gallery</span>
+          </div>
+          <div class="col-2 linkBox">
+            <i class="fas fa-image"></i>
+            <span class="linkText">Photo Gallery</span>
+          </div>
+          <div class="col-2 linkBox">
+            <i class="fas fa-image"></i>
+            <span class="linkText">Photo Gallery</span>
+          </div>
+          <div class="col-2 linkBox">
+            <i class="fas fa-image"></i>
+            <span class="linkText">Photo Gallery</span>
+          </div>
+          <div class="col-2 linkBox">
+            <i class="fas fa-image"></i>
+            <span class="linkText">Photo Gallery</span>
+          </div>
+          <div class="col-2 linkBox">
+            <i class="fas fa-image"></i>
+            <span class="linkText">Photo Gallery</span>
+          </div>
         </div>
-        <div class="col-2 linkBox">
-        <i class="fas fa-image"></i>
-        <span class="linkText">Photo Gallery</span>
-        </div>
-        <div class="col-2 linkBox">
-        <i class="fas fa-image"></i>
-        <span class="linkText">Photo Gallery</span>
-        </div>
-        <div class="col-2 linkBox">
-        <i class="fas fa-image"></i>
-        <span class="linkText">Photo Gallery</span>
-        </div>
-        <div class="col-2 linkBox">
-        <i class="fas fa-image"></i>
-        <span class="linkText">Photo Gallery</span>
-        </div>
-        <div class="col-2 linkBox">
-        <i class="fas fa-image"></i>
-        <span class="linkText">Photo Gallery</span>
+        <div class="row footer">
+          <div class="col-3 footerCol">
+            <h3 class="footerTitle">Get in touch</h3>
+            <p class="footerDesc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est atque
+              autem voluptate saepe adipisci quasi fuga dicta dolores, inventore
+            </p>
+            <ul class="icons">
+              <li><a href="#" class="fab fa-whatsapp"></a></li>
+              <li><a href="#" class="fab fa-facebook"></a></li>
+              <li><a href="#" class="fab fa-twitter"></a></li>
+              <li><a href="#" class="fab fa-instagram"></a></li>
+              <li><a href="#" class="fab fa-linkedin"></a></li>
+              <li><a href="#" class="fab fa-pinterest"></a></li>
+            </ul>
+          </div>
+          <div class="col-6 footerCol">Col-2</div>
+          <div class="col-3 footerCol">Col-3</div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-3">Col-1</div>
-        <div class="col-6">Col-2</div>
-        <div class="col-3">Col-3</div>
-      </div>
-    </div>
-  </footer>
-  <!-- footer section ends -->
-
+    </footer>
+    <!-- footer section ends -->
   </body>
 </html>

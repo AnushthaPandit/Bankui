@@ -140,3 +140,44 @@ body {
   /* padding-top: 5px; */
   padding-bottom: 15px;
 }
+
+footer .container{
+  padding-bottom: 0;
+}
+
+.footer{
+  background: hsl(170, 73%, 49%);
+  padding: 10px 15px;
+}
+
+.footerCol{
+  padding: 10px 0;
+}
+
+.footerTitle{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.footerDesc{
+  color: #fff;
+  font-size: .8rem;
+}
+
+.icons{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.icons > li{
+  padding: 5px 10px;
+  margin: 0 5px;
+  background: hsl(170, 83%, 30%);
+  border-radius: 5px;
+}
+
+.icons > li > a{
+  color: #fff;
+  font-size: 1rem;
+}
