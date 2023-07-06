@@ -180,6 +180,24 @@ footer .container{
   padding: 10px 15px;
 }
 
+.footerRefLinksContainer{
+  margin: 10px 0;
+  margin-top: 20px;
+}
+
+.footerRefLinks{
+  list-style: none;
+}
+
+.footerRefLinks > li{
+  padding-top: 5px;
+}
+
+.footerRefLinks > li > a{
+  color: #fff;
+  text-decoration: dashed;
+}
+
 .footerCol{
   padding: 10px 5px;
 }
