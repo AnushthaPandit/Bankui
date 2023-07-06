@@ -36,119 +36,55 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
   </head>
   <body>
-    <!-- first navbar start -->
-    <nav class="nav-bar">
-      <!-- <img src="./images/logo.svg" alt="" /> -->
-      <div class="main-title">BankOfMaharastra</div>
+   <!-- navbar starts here -->
+    <nav class="navbar">
+      <div class="nav-sec nav-part1">
+        <div class="upper-left">
+          <div class="left-cont">
+            
+            <a href="#" class="links active">Home</a>
+            <a href="#" class="links ">About Us</a>
+            <a href="#" class="links">Locate Us</a>
+            <a href="#" class="links">Career</a>
+            <a href="#" class="links">Contact Us</a>
+          </div>
+        </div>
+        <div class="upper-right">
+          <div class="right-cont">
+            <a href="#" class="links ">Home</a>
+            <a href="#" class="links">About Us</a>
+            <a href="#" class="links">Locate Us</a>
+            <a href="#" class="links">Career</a>
+            <a href="#" class="links">Contact Us</a>
+            <a href="#" class="links"><i class="bi bi-box-arrow-in-right"></i></a>
+          </div>
+        </div>
 
-      <div class="nav-items">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Locate Us</a>
-        <a href="#">Blog</a>
-        <a href="#">Carriers</a>
       </div>
-      <button>
-        Login
-        <i class="bi bi-box-arrow-in-right" style="color: aliceblue"></i>
-      </button>
-    </nav>
-    <!-- first navbar ends -->
-
-    <!-- second navbar start-->
-    <nav class="nav-bar-sec container">
-      <!-- <img src="./images/logo.svg" alt="logo-img" />
-        <div class="main-title">BankOfMaharastra</div> -->
-
-      <div class="nav-items-sec">
-        <div class="dropdown">
-          <a
-            class="dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Personal
-          </a>
-
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+      <div class="nav-sec nav-part2">
+        <div class="lower1">
+          <a href="#"><i class="bi bi-list" id="listicon"></i></a>
+          <a href="#">Personal <i class="bi bi-chevron-down"></i></a>
+          <a href="#">Corporate<i class="bi bi-chevron-down"></i></a>
+          <a href="#">MSME<i class="bi bi-chevron-down"></i></a>
+          <a href="#">Agriculture<i class="bi bi-chevron-down"></i></a>
+          <a href="#">NRI<i class="bi bi-chevron-down"></i></a>
+          <a href="#">Treasary<i class="bi bi-chevron-down"></i></a>
+          
         </div>
-        <div class="dropdown">
-          <a
-            class="dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Personal
-          </a>
-
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-        <div class="dropdown">
-          <a
-            class="dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            MSME
-          </a>
-
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-        <div class="dropdown">
-          <a
-            class="dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Blog
-          </a>
-
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-        <div class="dropdown">
-          <a
-            class="dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Carriers
-          </a>
-
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+        <div class="lower2">
+         
+          <i class="bi bi-search" id="searchicon"></i>
         </div>
       </div>
+      
     </nav>
-    <!-- second navbar end-->
+   
+  <!-- navbar ends here -->
+
+
+
+
 
     <!-- Main banner image section start -->
     <div class="carousel slide">
@@ -177,8 +113,25 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./img/bg.png" class="d-block w-100" alt="" />
+
+          <div class="above-text">
+            <h3>I am Looking for</h3>
+            <div class="btn-group">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Small button
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item active" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-primary">Primary</button>
+          </div>
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
+            <h5>First slide label </h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
