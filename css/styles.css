@@ -92,7 +92,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 0;
+  padding: 2rem 0;
   background: linear-gradient(90deg,
       rgba(4, 0, 71, 1) 0%,
       rgba(9, 9, 121, 1) 100%,
@@ -108,7 +108,7 @@ body {
   top: 0;
   background-color: #fff;
   z-index: 9999;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 
 .nav-sec {
@@ -118,9 +118,7 @@ body {
 }
 
 .nav-part1 {
-  /* background: rgb(4, 0, 71); */
   width: 100%;
-  /* padding: 7px 20px;  */
   color: #fff;
 
 }
@@ -210,6 +208,11 @@ body {
 
 .hover-menu-left {
   border-right: 1px solid #c9c8cc;
+}
+
+.hover-nav-right {
+  flex: 1;
+  height: 100%;
 }
 
 /* hover menu end */
@@ -322,9 +325,11 @@ footer .container {
   background-color: #716be7;
   padding: 10px 15px;
 }
-.foot-container{
+
+.foot-container {
   padding: 0px 20px;
 }
+
 .footerRefLinksContainer {
   /* margin: 0 0; */
   margin-top: 20px;

@@ -62,31 +62,72 @@
 		<div class="nav-sec nav-part2">
 			<div class="lower1">
 				<a href="#"><i class="bi bi-list" id="listicon"></i></a>
+				<a href="#">
+					<img src="/img/logo-white.svg" height="40" style="margin-top: .4em;" />
+				</a>
 				<div class="dropdown lower1-dropdown">
 					<a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
 						aria-haspopup="true" aria-expanded="false">
 						Personal
 					</a>
 					<div class="dropdown-menu lower1-dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<div>
-							<div class="hover-menu">
-								<div class="hover-menu-left">
-									<ul class="list-group list-group-flush">
-										<li class="list-group-item">Cras justo odio</li>
-										<!-- <li class="list-group-item">Dapibus ac facilisis in</li>
-											<li class="list-group-item">Morbi leo risus</li>
-											<li class="list-group-item">Porta ac consectetur ac</li>
-											<li class="list-group-item">Vestibulum at eros</li> -->
+						<div style="width: 800px">
+							<div class="d-flex">
+								<div style="flex: 0.7;" class="hover-nav-left">
+									<ul class="list-group">
+										<li class="list-group-item hover-nav-item" data-navname="personal" data-id="1">Deposits</li>
+										<li class="list-group-item hover-nav-item" data-navname="personal" data-id="2">Loans
+										</li>
+										<li class="list-group-item hover-nav-item" data-navname="personal" data-id="3">Digital Banking</li>
+										<li class="list-group-item hover-nav-item" data-navname="personal" data-id="4">Govt. Schemes
+										</li>
+										<li class="list-group-item hover-nav-item" data-navname="personal" data-id="5">Co-Lending (Digigtal Lending)</li>
 									</ul>
 								</div>
-								<div class="hover-menu-right">
-									<ul class="">
-										<li class="-item">Cras justo odio</li>
-										<!-- <li class="-item">Dapibus ac facilisis in</li>
-											<li class="-item">Morbi leo risus</li>
-											<li class="-item">Porta ac consectetur ac</li>
-											<li class="-item">Vestibulum at eros</li> -->
-									</ul>
+								<div class="hover-nav-right">
+									<div id="hover-nav-item-personal-1-content" style="display: block;"
+										>
+										<div class="flex-wrap" >
+											<button class="btn btn-xs btn-outline-primary m-2">Saving Deposit</button>
+										<button class="btn btn-xs  btn-outline-primary m-2">Current Deposit</button>
+										<button class="btn btn-xs  btn-outline-primary m-2">Term Deposit</button>
+										<button class="btn btn-xs  btn-outline-primary m-2">Capital Gain Account</button>
+										</div>
+									</div>
+									<div id="hover-nav-item-personal-2-content" style="display: none;"
+										>
+										<div class="flex-wrap" >
+											<button class="btn btn-xs btn-outline-primary m-2">Maha Super Housing Loan</button>
+											<button class="btn btn-xs btn-outline-primary m-2">Maha Super Flexi Housing Loan</button>
+											<button class="btn btn-xs btn-outline-primary m-2">Maha Super Car Loan Scheme</button>
+											<button class="btn btn-xs btn-outline-primary m-2">Maha Combo Loan Scheme</button>
+										</div>
+									</div>
+									<div id="hover-nav-item-personal-3-content" style="display: none;"
+										>
+										<div class="flex-wrap" >
+											<button class="btn btn-xs btn-outline-primary m-2">Internet Banking</button>
+											<button class="btn btn-xs btn-outline-primary m-2">Maha UPI</button>
+											<button class="btn btn-xs btn-outline-primary m-2">Maha Mobile</button>
+										</div>
+									</div>
+									<div id="hover-nav-item-personal-4-content" style="display: none;"
+										>
+										<div class="flex-wrap" >
+											<button class="btn btn-xs btn-outline-primary m-2">PMSBY</button>
+											<button class="btn btn-xs btn-outline-primary m-2">PMJDY</button>
+											<button class="btn btn-xs btn-outline-primary m-2">PMJJBY</button>
+											
+										</div>
+									</div>
+									<div id="hover-nav-item-personal-5-content" style="display: none;"
+										>
+										<div class="flex-wrap" >
+											<button class="btn btn-xs btn-outline-primary m-2">Cred Financial Service</button>
+											
+											
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -860,6 +901,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous"></script>
+	<script src="/js/index.js"></script>
 </body>
 
 </html>
