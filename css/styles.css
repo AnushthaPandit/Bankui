@@ -92,6 +92,23 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 10px 0;
+  background: linear-gradient(90deg,
+      rgba(4, 0, 71, 1) 0%,
+      rgba(9, 9, 121, 1) 100%,
+      rgba(0, 212, 255, 1) 100%);
+}
+
+.navbar-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 9999;
+  padding: 10px 0;
 }
 
 .nav-sec {
@@ -101,14 +118,9 @@ body {
 }
 
 .nav-part1 {
-  background: rgb(4, 0, 71);
-  background: linear-gradient(90deg,
-      rgba(4, 0, 71, 1) 0%,
-      rgba(9, 9, 121, 1) 100%,
-      rgba(0, 212, 255, 1) 100%);
-
+  /* background: rgb(4, 0, 71); */
   width: 100%;
-  padding: 7px 20px;
+  /* padding: 7px 20px;  */
   color: #fff;
 
 }
@@ -116,15 +128,18 @@ body {
 .left-cont {
   display: flex;
   flex-direction: row;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
+
+  justify-content: space-between;
   align-items: center;
+  gap: 1em;
 
 }
 
 .links {
-  padding: .1rem 1rem;
+  /* padding: .1rem 1rem; */
   color: #fff;
-  margin: 0 2px;
+  /* margin: 0 2px; */
   text-align: center;
 }
 
@@ -142,13 +157,16 @@ body {
 .right-cont {
   display: flex;
   flex-direction: row;
-  padding: 15px 10px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  /* padding: 15px 10px; */
 }
 
 .nav-part2 {
   color: #716be7;
   width: 100%;
-  padding: 13px 0px;
+  /* padding: 10px 7px; */
 }
 
 .lower1 {
@@ -175,8 +193,8 @@ body {
 }
 
 .lower2 i {
-  padding: 25px;
-  font-size: medium;
+  margin-right: .8em;
+  font-size: larger;
 }
 
 #searchicon {
@@ -523,7 +541,7 @@ footer .container {
   display: flex;
 }
 
-.dropdown:hover .dropdown-menu {
+.lower1-dropdown:hover .lower1-dropdown-menu {
   display: block;
   margin-top: 0;
   /* remove the gap so it doesn't close */
