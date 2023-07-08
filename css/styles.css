@@ -322,9 +322,11 @@ footer .container {
   background-color: #716be7;
   padding: 10px 15px;
 }
-
+.foot-container{
+  padding: 0px 20px;
+}
 .footerRefLinksContainer {
-  margin: 10px 0;
+  /* margin: 0 0; */
   margin-top: 20px;
 }
 
@@ -347,12 +349,12 @@ footer .container {
 
 .footerTitle {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .footerDesc {
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .icons,
@@ -552,8 +554,9 @@ footer .container {
   position: fixed;
   top: 30%;
   right: 0;
-  margin-right: 1.5rem;
+  margin-right: .8rem;
   max-width: 5rem;
+  z-index: 999;
 }
 
 .floating-options-cnt button {
