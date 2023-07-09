@@ -408,6 +408,7 @@ footer .container {
 
 .footer-nav-below {
   margin: 1rem 0;
+  padding: 2rem 0;
   background-color: #6b65d6;
   display: flex;
   justify-content: center;
@@ -417,7 +418,7 @@ footer .container {
 .footer-nav-below-flex {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   width: 85%;
   gap: 1rem;
 }
