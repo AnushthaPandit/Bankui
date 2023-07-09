@@ -66,71 +66,90 @@
 					<img src="/img/logo-white.svg" height="40" style="margin-top: .4em;" />
 				</a>
 				<div class="dropdown lower1-dropdown">
-					<a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
+					<a class="dropdown-toggle hover-nav-item-parent-nav-item" type="button" id="dropdownMenuButton"
+						data-toggle="dropdown" data-navname="personal" data-id="1" aria-haspopup="true"
+						aria-expanded="false">
 						Personal
 					</a>
-					<div class="dropdown-menu lower1-dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<div style="width: 800px">
-							<div class="d-flex">
-								<div style="flex: 0.7;" class="hover-nav-left">
-									<ul class="list-group">
-										<li class="list-group-item hover-nav-item" data-navname="personal" data-id="1">Deposits</li>
-										<li class="list-group-item hover-nav-item" data-navname="personal" data-id="2">Loans
-										</li>
-										<li class="list-group-item hover-nav-item" data-navname="personal" data-id="3">Digital Banking</li>
-										<li class="list-group-item hover-nav-item" data-navname="personal" data-id="4">Govt. Schemes
-										</li>
-										<li class="list-group-item hover-nav-item" data-navname="personal" data-id="5">Co-Lending (Digigtal Lending)</li>
-									</ul>
+					<div class="dropdown-menu lower1-dropdown-menu" style="padding: 0; width:600px;"
+						aria-labelledby="dropdownMenuButton">
+
+						<div class="d-flex align-items-stretch">
+							<div class="hover-nav-left">
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item hover-nav-item rounded" id="personal-1"
+										data-navname="personal" data-id="1">
+										Deposits</li>
+									<li class="list-group-item hover-nav-item rounded" id="personal-2"
+										data-navname="personal" data-id="2">
+										Loans
+									</li>
+									<li class="list-group-item hover-nav-item rounded" id="personal-3"
+										data-navname="personal" data-id="3">
+										Digital Banking</li>
+									<li class="list-group-item hover-nav-item rounded" id="personal-4"
+										data-navname="personal" data-id="4">
+										Govt. Schemes
+									</li>
+									<li class="list-group-item hover-nav-item rounded" id="personal-5"
+										data-navname="personal" data-id="5">
+										Co-Lending (Digigtal Lending)</li>
+								</ul>
+							</div>
+							<div class="hover-nav-right">
+								<div id="hover-nav-item-personal-1-content" class="hover-nav-item-content-cnt"
+									style="display: none;">
+									<ul class="hover-nav-right-ui">
+											<li class="hover-nav-right-li-item">Saving Deposit</li>
+											<li class="hover-nav-right-li-item">Current Deposit</li>
+											<li class="hover-nav-right-li-item">Term Deposit</li>
+											<li class="hover-nav-right-li-item">Capital Gain
+												Account</li>
+										</ul>
+									<!-- <div>
+											<button class="btn btn-sm btn-outline-primary m-2">Saving Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Current Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Term Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Capital Gain
+												Account</button>
+										</div> -->
 								</div>
-								<div class="hover-nav-right">
-									<div id="hover-nav-item-personal-1-content" style="display: block;"
-										>
-										<div class="flex-wrap" >
-											<button class="btn btn-xs btn-outline-primary m-2">Saving Deposit</button>
-										<button class="btn btn-xs  btn-outline-primary m-2">Current Deposit</button>
-										<button class="btn btn-xs  btn-outline-primary m-2">Term Deposit</button>
-										<button class="btn btn-xs  btn-outline-primary m-2">Capital Gain Account</button>
-										</div>
+								<div id="hover-nav-item-personal-2-content" style="display: none;">
+									<div class="flex-wrap">
+										<button class="btn btn-sm btn-outline-primary m-2">Maha Super Housing
+											Loan</button>
+										<button class="btn btn-sm btn-outline-primary m-2">Maha Super Flexi Housing
+											Loan</button>
+										<button class="btn btn-sm btn-outline-primary m-2">Maha Super Car Loan
+											Scheme</button>
+										<button class="btn btn-sm btn-outline-primary m-2">Maha Combo Loan
+											Scheme</button>
 									</div>
-									<div id="hover-nav-item-personal-2-content" style="display: none;"
-										>
-										<div class="flex-wrap" >
-											<button class="btn btn-xs btn-outline-primary m-2">Maha Super Housing Loan</button>
-											<button class="btn btn-xs btn-outline-primary m-2">Maha Super Flexi Housing Loan</button>
-											<button class="btn btn-xs btn-outline-primary m-2">Maha Super Car Loan Scheme</button>
-											<button class="btn btn-xs btn-outline-primary m-2">Maha Combo Loan Scheme</button>
-										</div>
+								</div>
+								<div id="hover-nav-item-personal-3-content" style="display: none;">
+									<div class="flex-wrap">
+										<button class="btn btn-sm btn-outline-primary m-2">Internet Banking</button>
+										<button class="btn btn-sm btn-outline-primary m-2">Maha UPI</button>
+										<button class="btn btn-sm btn-outline-primary m-2">Maha Mobile</button>
 									</div>
-									<div id="hover-nav-item-personal-3-content" style="display: none;"
-										>
-										<div class="flex-wrap" >
-											<button class="btn btn-xs btn-outline-primary m-2">Internet Banking</button>
-											<button class="btn btn-xs btn-outline-primary m-2">Maha UPI</button>
-											<button class="btn btn-xs btn-outline-primary m-2">Maha Mobile</button>
-										</div>
+								</div>
+								<div id="hover-nav-item-personal-4-content" style="display: none;">
+									<div class="flex-wrap">
+										<button class="btn btn-sm btn-outline-primary m-2">PMSBY</button>
+										<button class="btn btn-sm btn-outline-primary m-2">PMJDY</button>
+										<button class="btn btn-sm btn-outline-primary m-2">PMJJBY</button>
+
 									</div>
-									<div id="hover-nav-item-personal-4-content" style="display: none;"
-										>
-										<div class="flex-wrap" >
-											<button class="btn btn-xs btn-outline-primary m-2">PMSBY</button>
-											<button class="btn btn-xs btn-outline-primary m-2">PMJDY</button>
-											<button class="btn btn-xs btn-outline-primary m-2">PMJJBY</button>
-											
-										</div>
-									</div>
-									<div id="hover-nav-item-personal-5-content" style="display: none;"
-										>
-										<div class="flex-wrap" >
-											<button class="btn btn-xs btn-outline-primary m-2">Cred Financial Service</button>
-											
-											
-										</div>
+								</div>
+								<div id="hover-nav-item-personal-5-content" style="display: none;">
+									<div class="flex-wrap">
+										<button class="btn btn-sm btn-outline-primary m-2">Cred Financial
+											Service</button>
 									</div>
 								</div>
 							</div>
 						</div>
+
 						<!-- <a class="dropdown-item" href="#">Action</a>
 							<a class="dropdown-item" href="#">Another action</a>
 							<a class="dropdown-item" href="#">Something else here</a> -->
