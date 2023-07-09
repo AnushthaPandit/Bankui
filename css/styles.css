@@ -28,7 +28,7 @@ body {
   background-color: #fff;
 }
 
-ul{
+ul {
   padding-left: 0;
 }
 
@@ -266,6 +266,24 @@ ul{
   color: #716be7;
 }
 
+.new-dropdown {
+  width: 600px;
+
+}
+
+.new-dropdown>div {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.new-dropdown a {
+  font-size: 0.8em;
+  width: 100%;
+}
+
 /* hover menu end */
 
 .container {
@@ -399,6 +417,7 @@ footer .container {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: baseline;
   gap: 1rem;
 }
 
@@ -605,7 +624,11 @@ footer .container {
   position: absolute;
   top: 3rem;
   right: 10rem;
-  z-index: 9999;
+  z-index: 99;
+}
+
+.looking-for-cnt h3 {
+  font-size: 1.5rem;
 }
 
 .looking-for-select {
@@ -613,6 +636,7 @@ footer .container {
   border-width: 0;
   border-bottom: 1px solid #716be7 !important;
   outline: 0 !important;
+  padding-left: 0;
 }
 
 .looking-for-select:focus {
@@ -676,12 +700,13 @@ footer .container {
 
 .image-text {
   position: relative;
+  width: 100%;
 }
 
 .image-text .text-img {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 90%;
   z-index: 1;
   opacity: .8;
   align-items: center;
@@ -689,12 +714,25 @@ footer .container {
   display: none;
   justify-content: center;
   background-color: #fff;
+  color: #716be7;
   transition: 1s ease;
   overflow: hidden;
 }
 
+.image-text .text-img-h5 {
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+  width: 90%;
+  text-align: center;
+}
+
 .image-text:hover .text-img {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .lower1-dropdown:hover .lower1-dropdown-menu {

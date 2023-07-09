@@ -49,6 +49,8 @@ Array.from(hover_nav_items_parent_nav_items).forEach((element, i) => {
 
 		const target_tab = document.getElementById(target_tab_id);
 
+		console.log(target_tab_id);
+
 		target_tab.classList.add("active-hover-nav-child-item");
 
 		const nav_associated_div_id =

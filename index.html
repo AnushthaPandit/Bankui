@@ -1,404 +1,1022 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Document</title>
+		<!-- Favicon -->
+		<link href="img/favicon.ico" rel="icon" />
 
-	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="icon" />
+		<!-- Google Web Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+			rel="stylesheet"
+		/>
 
-	<!-- Google Web Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
-		rel="stylesheet" />
+		<!-- Icon Font Stylesheet -->
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+			rel="stylesheet"
+		/>
 
-	<!-- Icon Font Stylesheet -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+		<!-- Libraries Stylesheet -->
+		<link href="lib/animate/animate.min.css" rel="stylesheet" />
+		<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
-	<!-- Libraries Stylesheet -->
-	<link href="lib/animate/animate.min.css" rel="stylesheet" />
-	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+		<!-- Customized Bootstrap Stylesheet -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
 
-	<!-- Customized Bootstrap Stylesheet -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="css/styles.css" />
-	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+		<!-- Bootstrap cdn links for css-->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+	</head>
 
-	<!-- Bootstrap cdn links for css-->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-</head>
-
-<body>
-	<!-- navbar starts here -->
-	<nav class="navbar">
-		<div class="nav-sec nav-part1">
-			<div class="upper-left">
-				<div class="left-cont">
-					<a href="#" class="links">Home</a>
-					<a href="#" class="links">About Us</a>
-					<a href="#" class="links">Locate Us</a>
-					<a href="#" class="links">Career</a>
-					<a href="#" class="links">Contact Us</a>
+	<body>
+		<!-- navbar starts here -->
+		<nav class="navbar">
+			<div class="nav-sec nav-part1">
+				<div class="upper-left">
+					<div class="left-cont">
+						<a href="#" class="links">Home</a>
+						<a href="#" class="links">About Us</a>
+						<a href="#" class="links">Locate Us</a>
+						<a href="#" class="links">Career</a>
+						<a href="#" class="links">Contact Us</a>
+					</div>
+				</div>
+				<div class="upper-right">
+					<div class="right-cont">
+						<a href="#" class="links">Online SB account</a>
+						<a href="#" class="links">Online Loan</a>
+						<a href="#" class="links">Helpline</a>
+						<a href="#" class="links">Investor Relation</a>
+						<a href="#" class="links">Bank/ATM Locator</a>
+						<a href="#" class="links"
+							><i class="bi bi-box-arrow-in-right"></i
+						></a>
+					</div>
 				</div>
 			</div>
-			<div class="upper-right">
-				<div class="right-cont">
-					<a href="#" class="links">Online SB account</a>
-					<a href="#" class="links">Online Loan</a>
-					<a href="#" class="links">Helpline</a>
-					<a href="#" class="links">Investor Relation</a>
-					<a href="#" class="links">Bank/ATM Locator</a>
-					<a href="#" class="links"><i class="bi bi-box-arrow-in-right"></i></a>
-				</div>
-			</div>
-		</div>
-	</nav>
-	<nav class="navbar-2">
-		<div class="nav-sec nav-part2">
-			<div class="lower1">
-				<a href="#"><i class="bi bi-list" id="listicon"></i></a>
-				<a href="#">
-					<img src="/img/logo-white.svg" height="40" style="margin-top: 0.4em" />
-				</a>
-				<div class="dropdown lower1-dropdown">
-					<a class="dropdown-toggle hover-nav-item-parent-nav-item" type="button" id="dropdownMenuButton"
-						data-toggle="dropdown" data-navname="personal" data-id="1" aria-haspopup="true"
-						aria-expanded="false">
-						Personal
+		</nav>
+		<nav class="navbar-2">
+			<div class="nav-sec nav-part2">
+				<div class="lower1">
+					<a href="#"><i class="bi bi-list" id="listicon"></i></a>
+					<a href="#">
+						<img
+							src="/img/logo-white.svg"
+							height="40"
+							style="margin-top: 0.4em"
+						/>
 					</a>
-					<div class="dropdown-menu lower1-dropdown-menu" style="padding: 0; width: 600px"
-						aria-labelledby="dropdownMenuButton">
-						<div class="d-flex align-items-stretch">
-							<div class="hover-nav-left">
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item hover-nav-item rounded" id="personal-1"
-										data-navname="personal" data-id="1">
-										Deposits
-									</li>
-									<li class="list-group-item hover-nav-item rounded" id="personal-2"
-										data-navname="personal" data-id="2">
-										Loans
-									</li>
-									<li class="list-group-item hover-nav-item rounded" id="personal-3"
-										data-navname="personal" data-id="3">
-										Digital Banking
-									</li>
-									<li class="list-group-item hover-nav-item rounded" id="personal-4"
-										data-navname="personal" data-id="4">
-										Govt. Schemes
-									</li>
-									<li class="list-group-item hover-nav-item rounded" id="personal-5"
-										data-navname="personal" data-id="5">
-										Co-Lending (Digigtal Lending)
-									</li>
-								</ul>
-							</div>
-							<div class="hover-nav-right">
-								<div id="hover-nav-item-personal-1-content" class="hover-nav-item-content-cnt"
-									style="display: none">
-									<ul class="hover-nav-right-ui">
-										<li class="hover-nav-right-li-item">Saving Deposit</li>
-										<li class="hover-nav-right-li-item">Current Deposit</li>
-										<li class="hover-nav-right-li-item">Term Deposit</li>
-										<li class="hover-nav-right-li-item">
-											Capital Gain Account
+					<div class="dropdown lower1-dropdown">
+						<a
+							class="dropdown-toggle hover-nav-item-parent-nav-item"
+							type="button"
+							id="dropdownMenuButton"
+							data-toggle="dropdown"
+							data-navname="personal"
+							data-id="1"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Personal
+						</a>
+						<div
+							class="dropdown-menu lower1-dropdown-menu"
+							style="padding: 0; width: 600px"
+							aria-labelledby="dropdownMenuButton"
+						>
+							<div class="d-flex align-items-stretch">
+								<div class="hover-nav-left">
+									<ul class="list-group list-group-flush">
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="personal-1"
+											data-navname="personal"
+											data-id="1"
+										>
+											Deposits
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="personal-2"
+											data-navname="personal"
+											data-id="2"
+										>
+											Loans
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="personal-3"
+											data-navname="personal"
+											data-id="3"
+										>
+											Digital Banking
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="personal-4"
+											data-navname="personal"
+											data-id="4"
+										>
+											Govt. Schemes
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="personal-5"
+											data-navname="personal"
+											data-id="5"
+										>
+											Co-Lending (Digigtal Lending)
 										</li>
 									</ul>
-									<!-- <div>
+								</div>
+								<div class="hover-nav-right">
+									<div
+										id="hover-nav-item-personal-1-content"
+										class="hover-nav-item-content-cnt"
+										style="display: none"
+									>
+										<ul class="hover-nav-right-ui">
+											<li class="hover-nav-right-li-item">Saving Deposit</li>
+											<li class="hover-nav-right-li-item">Current Deposit</li>
+											<li class="hover-nav-right-li-item">Term Deposit</li>
+											<li class="hover-nav-right-li-item">
+												Capital Gain Account
+											</li>
+										</ul>
+										<!-- <div>
 											<button class="btn btn-sm btn-outline-primary m-2">Saving Deposit</button>
 											<button class="btn btn-sm  btn-outline-primary m-2">Current Deposit</button>
 											<button class="btn btn-sm  btn-outline-primary m-2">Term Deposit</button>
 											<button class="btn btn-sm  btn-outline-primary m-2">Capital Gain
 												Account</button>
 										</div> -->
-								</div>
-								<div id="hover-nav-item-personal-2-content" style="display: none">
-									<div class="flex-wrap">
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha Super Housing Loan
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha Super Flexi Housing Loan
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha Super Car Loan Scheme
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha Combo Loan Scheme
-										</button>
 									</div>
-								</div>
-								<div id="hover-nav-item-personal-3-content" style="display: none">
-									<div class="flex-wrap">
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Internet Banking
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha UPI
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha Mobile
-										</button>
+									<div
+										id="hover-nav-item-personal-2-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Flexi Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Car Loan Scheme
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Combo Loan Scheme
+											</button>
+										</div>
 									</div>
-								</div>
-								<div id="hover-nav-item-personal-4-content" style="display: none">
-									<div class="flex-wrap">
-										<button class="btn btn-sm btn-outline-primary m-2">
-											PMSBY
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											PMJDY
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											PMJJBY
-										</button>
+									<div
+										id="hover-nav-item-personal-3-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Internet Banking
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha UPI
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Mobile
+											</button>
+										</div>
 									</div>
-								</div>
-								<div id="hover-nav-item-personal-5-content" style="display: none">
-									<div class="flex-wrap">
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Cred Financial Service
-										</button>
+									<div
+										id="hover-nav-item-personal-4-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMSBY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJDY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJJBY
+											</button>
+										</div>
+									</div>
+									<div
+										id="hover-nav-item-personal-5-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Cred Financial Service
+											</button>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 
-						<!-- <a class="dropdown-item" href="#">Action</a>
+							<!-- <a class="dropdown-item" href="#">Action</a>
 							<a class="dropdown-item" href="#">Another action</a>
 							<a class="dropdown-item" href="#">Something else here</a> -->
+						</div>
 					</div>
-				</div>
-				<div class="dropdown lower1-dropdown">
-					<a class="dropdown-toggle hover-nav-item-parent-nav-item" type="button" id="dropdownMenuButton"
-						data-toggle="dropdown" data-navname="personal" data-id="1" aria-haspopup="true"
-						aria-expanded="false">
-						Corporate
-					</a>
-					<div class="dropdown-menu lower1-dropdown-menu" style="padding: 0; width: 600px"
-						aria-labelledby="dropdownMenuButton">
-						<div class="d-flex align-items-stretch">
-							<div class="hover-nav-left">
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item hover-nav-item rounded" id="personal-1"
-										data-navname="personal" data-id="1">
-										Corporate Banking
-									</li>
-									<li class="list-group-item hover-nav-item rounded" id="personal-2"
-										data-navname="personal" data-id="2">
-										Loans For MSME
-									</li>
-									<li class="list-group-item hover-nav-item rounded" id="personal-3"
-										data-navname="personal" data-id="3">
-										Treasary
-									</li>
-								</ul>
-							</div>
-							<div class="hover-nav-right">
-								<div id="hover-nav-item-personal-1-content" class="hover-nav-item-content-cnt"
-									style="display: none">
-									<ul class="hover-nav-right-ui">
-										<li class="hover-nav-right-li-item">Saving Deposit</li>
-										<li class="hover-nav-right-li-item">Current Deposit</li>
-										<li class="hover-nav-right-li-item">Term Deposit</li>
-										<li class="hover-nav-right-li-item">
-											Capital Gain Account
+					<div class="dropdown lower1-dropdown">
+						<a
+							class="dropdown-toggle hover-nav-item-parent-nav-item"
+							type="button"
+							id="dropdownMenuButton"
+							data-toggle="dropdown"
+							data-navname="corporate"
+							data-id="1"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Corporate
+						</a>
+						<div
+							class="dropdown-menu lower1-dropdown-menu"
+							style="padding: 0; width: 600px"
+							aria-labelledby="dropdownMenuButton"
+						>
+							<div class="d-flex align-items-stretch">
+								<div class="hover-nav-left">
+									<ul class="list-group list-group-flush">
+										<li
+											class="list-group-item hover-nav-item rounded"
+											data-navname="corporate"
+											data-id="1"
+											id="corporate-1"
+										>
+											Corporate Banking
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="corporate-2"
+											data-navname="corporate"
+											data-id="2"
+										>
+											Loans For MSME
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="corporate-3"
+											data-navname="corporate"
+											data-id="3"
+										>
+											Treasary
 										</li>
 									</ul>
-									<!-- <div>
+								</div>
+								<div class="hover-nav-right">
+									<div
+										id="hover-nav-item-corporate-1-content"
+										class="hover-nav-item-content-cnt"
+										style="display: none"
+									>
+										<ul class="hover-nav-right-ui">
+											<li class="hover-nav-right-li-item">Saving Deposit</li>
+											<li class="hover-nav-right-li-item">Current Deposit</li>
+											<li class="hover-nav-right-li-item">Term Deposit</li>
+											<li class="hover-nav-right-li-item">
+												Capital Gain Account
+											</li>
+										</ul>
+										<!-- <div>
 											<button class="btn btn-sm btn-outline-primary m-2">Saving Deposit</button>
 											<button class="btn btn-sm  btn-outline-primary m-2">Current Deposit</button>
 											<button class="btn btn-sm  btn-outline-primary m-2">Term Deposit</button>
 											<button class="btn btn-sm  btn-outline-primary m-2">Capital Gain
 												Account</button>
 										</div> -->
-								</div>
-								<div id="hover-nav-item-personal-2-content" style="display: none">
-									<div class="flex-wrap">
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha Super Housing Loan
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha Super Flexi Housing Loan
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha Super Car Loan Scheme
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha Combo Loan Scheme
-										</button>
 									</div>
-								</div>
-								<div id="hover-nav-item-personal-3-content" style="display: none">
-									<div class="flex-wrap">
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Internet Banking
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha UPI
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Maha Mobile
-										</button>
+									<div
+										id="hover-nav-item-corporate-2-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Flexi Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Car Loan Scheme
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Combo Loan Scheme
+											</button>
+										</div>
 									</div>
-								</div>
-								<div id="hover-nav-item-personal-4-content" style="display: none">
-									<div class="flex-wrap">
-										<button class="btn btn-sm btn-outline-primary m-2">
-											PMSBY
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											PMJDY
-										</button>
-										<button class="btn btn-sm btn-outline-primary m-2">
-											PMJJBY
-										</button>
+									<div
+										id="hover-nav-item-corporate-3-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Internet Banking
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha UPI
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Mobile
+											</button>
+										</div>
 									</div>
-								</div>
-								<div id="hover-nav-item-personal-5-content" style="display: none">
-									<div class="flex-wrap">
-										<button class="btn btn-sm btn-outline-primary m-2">
-											Cred Financial Service
-										</button>
+									<div
+										id="hover-nav-item-corporate-4-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMSBY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJDY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJJBY
+											</button>
+										</div>
+									</div>
+									<div
+										id="hover-nav-item-corporate-5-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Cred Financial Service
+											</button>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 
-						<!-- <a class="dropdown-item" href="#">Action</a>
+							<!-- <a class="dropdown-item" href="#">Action</a>
 							<a class="dropdown-item" href="#">Another action</a>
 							<a class="dropdown-item" href="#">Something else here</a> -->
+						</div>
 					</div>
-				</div>
-				<div class="dropdown lower1-dropdown">
-					<a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						MSME
-					</a>
-					<div class="dropdown-menu lower1-dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
+					<div class="dropdown lower1-dropdown">
+						<a
+							class="dropdown-toggle hover-nav-item-parent-nav-item"
+							type="button"
+							id="dropdownMenuButton"
+							data-toggle="dropdown"
+							data-navname="msme"
+							data-id="1"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							MSME
+						</a>
+						<div
+							class="dropdown-menu lower1-dropdown-menu"
+							style="padding: 0; width: 600px"
+							aria-labelledby="dropdownMenuButton"
+						>
+							<div class="d-flex align-items-stretch">
+								<div class="hover-nav-left">
+									<ul class="list-group list-group-flush">
+										<li
+											class="list-group-item hover-nav-item rounded"
+											data-navname="msme"
+											data-id="1"
+											id="msme-1"
+										>
+											msme Banking
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="msme-2"
+											data-navname="msme"
+											data-id="2"
+										>
+											Loans For MSME
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="msme-3"
+											data-navname="msme"
+											data-id="3"
+										>
+											Treasary
+										</li>
+									</ul>
+								</div>
+								<div class="hover-nav-right">
+									<div
+										id="hover-nav-item-msme-1-content"
+										class="hover-nav-item-content-cnt"
+										style="display: none"
+									>
+										<ul class="hover-nav-right-ui">
+											<li class="hover-nav-right-li-item">Saving Deposit</li>
+											<li class="hover-nav-right-li-item">Current Deposit</li>
+											<li class="hover-nav-right-li-item">Term Deposit</li>
+											<li class="hover-nav-right-li-item">
+												Capital Gain Account
+											</li>
+										</ul>
+										<!-- <div>
+											<button class="btn btn-sm btn-outline-primary m-2">Saving Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Current Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Term Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Capital Gain
+												Account</button>
+										</div> -->
+									</div>
+									<div id="hover-nav-item-msme-2-content" style="display: none">
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Flexi Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Car Loan Scheme
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Combo Loan Scheme
+											</button>
+										</div>
+									</div>
+									<div id="hover-nav-item-msme-3-content" style="display: none">
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Internet Banking
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha UPI
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Mobile
+											</button>
+										</div>
+									</div>
+									<div id="hover-nav-item-msme-4-content" style="display: none">
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMSBY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJDY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJJBY
+											</button>
+										</div>
+									</div>
+									<div id="hover-nav-item-msme-5-content" style="display: none">
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Cred Financial Service
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- <a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a> -->
+						</div>
 					</div>
-				</div>
-				<div class="dropdown lower1-dropdown">
-					<a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						Agriculture
-					</a>
-					<div class="dropdown-menu lower1-dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
+					<div class="dropdown lower1-dropdown">
+						<a
+							class="dropdown-toggle hover-nav-item-parent-nav-item"
+							type="button"
+							id="dropdownMenuButton"
+							data-toggle="dropdown"
+							data-navname="agriculture"
+							data-id="1"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Agriculture
+						</a>
+						<div
+							class="dropdown-menu lower1-dropdown-menu"
+							style="padding: 0; width: 600px"
+							aria-labelledby="dropdownMenuButton"
+						>
+							<div class="d-flex align-items-stretch">
+								<div class="hover-nav-left">
+									<ul class="list-group list-group-flush">
+										<li
+											class="list-group-item hover-nav-item rounded"
+											data-navname="agriculture"
+											data-id="1"
+											id="agriculture-1"
+										>
+											agriculture Banking
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="agriculture-2"
+											data-navname="agriculture"
+											data-id="2"
+										>
+											Loans For MSME
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="agriculture-3"
+											data-navname="agriculture"
+											data-id="3"
+										>
+											Treasary
+										</li>
+									</ul>
+								</div>
+								<div class="hover-nav-right">
+									<div
+										id="hover-nav-item-agriculture-1-content"
+										class="hover-nav-item-content-cnt"
+										style="display: none"
+									>
+										<ul class="hover-nav-right-ui">
+											<li class="hover-nav-right-li-item">Saving Deposit</li>
+											<li class="hover-nav-right-li-item">Current Deposit</li>
+											<li class="hover-nav-right-li-item">Term Deposit</li>
+											<li class="hover-nav-right-li-item">
+												Capital Gain Account
+											</li>
+										</ul>
+										<!-- <div>
+											<button class="btn btn-sm btn-outline-primary m-2">Saving Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Current Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Term Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Capital Gain
+												Account</button>
+										</div> -->
+									</div>
+									<div
+										id="hover-nav-item-agriculture-2-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Flexi Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Car Loan Scheme
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Combo Loan Scheme
+											</button>
+										</div>
+									</div>
+									<div
+										id="hover-nav-item-agriculture-3-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Internet Banking
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha UPI
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Mobile
+											</button>
+										</div>
+									</div>
+									<div
+										id="hover-nav-item-agriculture-4-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMSBY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJDY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJJBY
+											</button>
+										</div>
+									</div>
+									<div
+										id="hover-nav-item-agriculture-5-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Cred Financial Service
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- <a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a> -->
+						</div>
 					</div>
-				</div>
-				<div class="dropdown lower1-dropdown">
-					<a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						NRI
-					</a>
-					<div class="dropdown-menu lower1-dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
+					<div class="dropdown lower1-dropdown">
+						<a
+							class="dropdown-toggle hover-nav-item-parent-nav-item"
+							type="button"
+							id="dropdownMenuButton"
+							data-toggle="dropdown"
+							data-navname="nri"
+							data-id="1"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							NRI
+						</a>
+						<div
+							class="dropdown-menu lower1-dropdown-menu"
+							style="padding: 0; width: 600px"
+							aria-labelledby="dropdownMenuButton"
+						>
+							<div class="d-flex align-items-stretch">
+								<div class="hover-nav-left">
+									<ul class="list-group list-group-flush">
+										<li
+											class="list-group-item hover-nav-item rounded"
+											data-navname="nri"
+											data-id="1"
+											id="nri-1"
+										>
+											NRI Banking
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="nri-2"
+											data-navname="nri"
+											data-id="2"
+										>
+											Loans For MSME
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="nri-3"
+											data-navname="nri"
+											data-id="3"
+										>
+											Treasary
+										</li>
+									</ul>
+								</div>
+								<div class="hover-nav-right">
+									<div
+										id="hover-nav-item-nri-1-content"
+										class="hover-nav-item-content-cnt"
+										style="display: none"
+									>
+										<ul class="hover-nav-right-ui">
+											<li class="hover-nav-right-li-item">Saving Deposit</li>
+											<li class="hover-nav-right-li-item">Current Deposit</li>
+											<li class="hover-nav-right-li-item">Term Deposit</li>
+											<li class="hover-nav-right-li-item">
+												Capital Gain Account
+											</li>
+										</ul>
+										<!-- <div>
+											<button class="btn btn-sm btn-outline-primary m-2">Saving Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Current Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Term Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Capital Gain
+												Account</button>
+										</div> -->
+									</div>
+									<div id="hover-nav-item-nri-2-content" style="display: none">
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Flexi Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Car Loan Scheme
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Combo Loan Scheme
+											</button>
+										</div>
+									</div>
+									<div id="hover-nav-item-nri-3-content" style="display: none">
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Internet Banking
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha UPI
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Mobile
+											</button>
+										</div>
+									</div>
+									<div id="hover-nav-item-nri-4-content" style="display: none">
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMSBY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJDY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJJBY
+											</button>
+										</div>
+									</div>
+									<div id="hover-nav-item-nri-5-content" style="display: none">
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Cred Financial Service
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- <a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a> -->
+						</div>
 					</div>
-				</div>
-				<div class="dropdown lower1-dropdown">
-					<a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						Treasary
-					</a>
-					<div class="dropdown-menu lower1-dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
+					<div class="dropdown lower1-dropdown">
+						<a
+							class="dropdown-toggle hover-nav-item-parent-nav-item"
+							type="button"
+							id="dropdownMenuButton"
+							data-toggle="dropdown"
+							data-navname="treasary"
+							data-id="1"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Treasary
+						</a>
+						<div
+							class="dropdown-menu lower1-dropdown-menu"
+							style="padding: 0; width: 600px"
+							aria-labelledby="dropdownMenuButton"
+						>
+							<div class="d-flex align-items-stretch">
+								<div class="hover-nav-left">
+									<ul class="list-group list-group-flush">
+										<li
+											class="list-group-item hover-nav-item rounded"
+											data-navname="treasary"
+											data-id="1"
+											id="treasary-1"
+										>
+											treasary Banking
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="treasary-2"
+											data-navname="treasary"
+											data-id="2"
+										>
+											Loans For MSME
+										</li>
+										<li
+											class="list-group-item hover-nav-item rounded"
+											id="treasary-3"
+											data-navname="treasary"
+											data-id="3"
+										>
+											Treasary
+										</li>
+									</ul>
+								</div>
+								<div class="hover-nav-right">
+									<div
+										id="hover-nav-item-treasary-1-content"
+										class="hover-nav-item-content-cnt"
+										style="display: none"
+									>
+										<ul class="hover-nav-right-ui">
+											<li class="hover-nav-right-li-item">Saving Deposit</li>
+											<li class="hover-nav-right-li-item">Current Deposit</li>
+											<li class="hover-nav-right-li-item">Term Deposit</li>
+											<li class="hover-nav-right-li-item">
+												Capital Gain Account
+											</li>
+										</ul>
+										<!-- <div>
+											<button class="btn btn-sm btn-outline-primary m-2">Saving Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Current Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Term Deposit</button>
+											<button class="btn btn-sm  btn-outline-primary m-2">Capital Gain
+												Account</button>
+										</div> -->
+									</div>
+									<div
+										id="hover-nav-item-treasary-2-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Flexi Housing Loan
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Super Car Loan Scheme
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Combo Loan Scheme
+											</button>
+										</div>
+									</div>
+									<div
+										id="hover-nav-item-treasary-3-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Internet Banking
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha UPI
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Maha Mobile
+											</button>
+										</div>
+									</div>
+									<div
+										id="hover-nav-item-treasary-4-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMSBY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJDY
+											</button>
+											<button class="btn btn-sm btn-outline-primary m-2">
+												PMJJBY
+											</button>
+										</div>
+									</div>
+									<div
+										id="hover-nav-item-treasary-5-content"
+										style="display: none"
+									>
+										<div class="flex-wrap">
+											<button class="btn btn-sm btn-outline-primary m-2">
+												Cred Financial Service
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- <a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a> -->
+						</div>
 					</div>
-				</div>
-				<div class="dropdown lower1-dropdown">
-					<a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						<img src="/img/new.gif" alt="New" />
-					</a>
-					<div class="dropdown-menu lower1-dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="#">Forex Card Rates</a>
-						<a class="dropdown-item" href="#">PRESS RELEASE -FINANCIAL RESULTS FOR THE QUARTER AND YEAR
-							ENDED
-							31st March 2023</a>
-						<a class="dropdown-item" href="#">Frequently Asked Questions - Rs-2000 Denomination Bank
-							notes</a>
-						<a class="dropdown-item" href="#">Marginal Cost of Funds Based Lending Rate (MCLR) and Repo Rate
-							Linked Lending Rate (RLLR)</a>
-						<a class="dropdown-item" href="#">BoM Credit Card Bill Payment</a>
-						<a class="dropdown-item" href="#">Bank of Maharashtra launches WhatsApp Banking Service</a>
-						<a class="dropdown-item" href="#">Dear Customer, In continuation to the increase in Repo rate by
-							RBI, 0M has revised its Repo Linked Lending Rate (RLLR) w.e.f
-							7.122022. As a result, EMI for the Loan sanctioned under
-							floating ate of interest is deemed to be revised. Please contact
-							your home ranch for more information regarding your revised EMI
-							& latest pplicable Rate of Interest. Regards, Mahabank</a>
-						<a class="dropdown-item" href="#">As per GOI Guidelines, Bank of Maharashtra has been migrated
-							from OLTAS e-Pavment of Direct Taxes facility of e-Filling
-							portal to new TIN 2.0. Users are advised to navigate to e-pay
-							Tax on https:/www.incometax.gov.in to make Direct Tax
-							payments</a>
-						<a class="dropdown-item" href="#">Regarding nomination for 12th World Hindi Conference</a>
-						<a class="dropdown-item" href="#">o safeguard the rights of locker holder, IBA has provided the
-							evised Model Safe Deposit Locker Agreement. You are requested to
-							ontact your Bank of Maharashtra branch for execution of New
-							ocker agreement or supplementary agreement for your locker efore
-							31.12.2023</a>
-						<a class="dropdown-item" href="#">IMP: RBI has now opened a Late Submission Fees (LSF) Mechanism
-							indow for 3 years (starting 22.08.2022) for regularization of
-							elayed ODI remittances. All customers who have ever made any
-							verseas investment in any overseas entity (classified ODI by
-							RBI) re advised to ensure their ODI investment is reported to
-							RBI. In ase your remittance is not reported to RBI yet;
-							immediately contact our home branch/forex center/TlBD to get any
-							unreported / elayed remittance reporting regularized under LS</a>
-						<a class="dropdown-item" href="#">GENERAL NOTICE Dear Customer, The customers having inoperative
-							PMJDY Saving account in our Bank are requested to operate their
-							account by depositing & withdrawing amount and submit KYC
-							documents to concerned Branch before 31.01.2023. Otherwise such
-							inoperative accounts will be closed after 31.01.2023 assuming
-							that they are not willing to continue their PMJDY SB account.
-							-Mahabank</a>
-						<a class="dropdown-item" href="#">Bank ot Maharashtra tops PSU banks In terms ot loan and
-							deposit
-							growth</a>
-						<a class="dropdown-item" href="#">Let's defeat the pandemic</a>
-						<a class="dropdown-item" href="#">otice for Helpline Number for Women in distress</a>
-						<a class="dropdown-item" href="#">Retail</a>
+					<div class="dropdown lower1-dropdown">
+						<a
+							class="dropdown-toggle"
+							type="button"
+							id="dropdownMenuButton"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							<img src="/img/new.gif" alt="New" />
+						</a>
+						<div
+							class="dropdown-menu lower1-dropdown-menu new-dropdown"
+							aria-labelledby="dropdownMenuButton"
+						>
+							<div>
+								<a class="" href="#">Forex Card Rates</a>
+								<a class="" href="#" style="max-width: 200px"
+									>PRESS RELEASE -FINANCIAL RESULTS FOR THE QUARTER AND YEAR
+									ENDED 31st March 2023</a
+								>
+								<a class="" href="#"
+									>Frequently Asked Questions - Rs-2000 Denomination Bank
+									notes</a
+								>
+								<a class="" href="#"
+									>Marginal Cost of Funds Based Lending Rate (MCLR) and Repo
+									Rate Linked Lending Rate (RLLR)</a
+								>
+								<a class="" href="#">BoM Credit Card Bill Payment</a>
+								<a class="" href="#"
+									>Bank of Maharashtra launches WhatsApp Banking Service</a
+								>
+								<a class="" href="#"
+									>Dear Customer, In continuation to the increase in Repo rate
+									by RBI, 0M has revised its Repo Linked Lending Rate (RLLR)
+									w.e.f 7.122022. As a result, EMI for the Loan sanctioned under
+									floating ate of interest is deemed to be revised. Please
+									contact your home ranch for more information regarding your
+									revised EMI & latest pplicable Rate of Interest. Regards,
+									Mahabank</a
+								>
+								<a class="" href="#"
+									>As per GOI Guidelines, Bank of Maharashtra has been migrated
+									from OLTAS e-Pavment of Direct Taxes facility of e-Filling
+									portal to new TIN 2.0. Users are advised to navigate to e-pay
+									Tax on https:/www.incometax.gov.in to make Direct Tax
+									payments</a
+								>
+								<a class="" href="#"
+									>Regarding nomination for 12th World Hindi Conference</a
+								>
+								<a class="" href="#"
+									>o safeguard the rights of locker holder, IBA has provided the
+									evised Model Safe Deposit Locker Agreement. You are requested
+									to ontact your Bank of Maharashtra branch for execution of New
+									ocker agreement or supplementary agreement for your locker
+									efore 31.12.2023</a
+								>
+								<a class="" href="#"
+									>IMP: RBI has now opened a Late Submission Fees (LSF)
+									Mechanism indow for 3 years (starting 22.08.2022) for
+									regularization of elayed ODI remittances. All customers who
+									have ever made any verseas investment in any overseas entity
+									(classified ODI by RBI) re advised to ensure their ODI
+									investment is reported to RBI. In ase your remittance is not
+									reported to RBI yet; immediately contact our home branch/forex
+									center/TlBD to get any unreported / elayed remittance
+									reporting regularized under LS</a
+								>
+								<a class="" href="#"
+									>GENERAL NOTICE Dear Customer, The customers having
+									inoperative PMJDY Saving account in our Bank are requested to
+									operate their account by depositing & withdrawing amount and
+									submit KYC documents to concerned Branch before 31.01.2023.
+									Otherwise such inoperative accounts will be closed after
+									31.01.2023 assuming that they are not willing to continue
+									their PMJDY SB account. -Mahabank</a
+								>
+								<a class="" href="#"
+									>Bank ot Maharashtra tops PSU banks In terms ot loan and
+									deposit growth</a
+								>
+								<a class="" href="#">Let's defeat the pandemic</a>
+								<a class="" href="#"
+									>otice for Helpline Number for Women in distress</a
+								>
+								<a class="" href="#">Retail</a>
+							</div>
+						</div>
 					</div>
-				</div>
-				<!-- <ul class="dropdown-menu">
+					<!-- <ul class="dropdown-menu">
 						<li><a href="#">HTML</a></li>
 						<li><a href="#">CSS</a></li>
 						<li><a href="#">JavaScript</a></li>
 						<li class="divider"></li>
 					</ul> -->
-				<!-- <a href="#">Corporate<i class="bi bi-chevron-down"></i></a>
+					<!-- <a href="#">Corporate<i class="bi bi-chevron-down"></i></a>
 					<a href="#">MSME<i class="bi bi-chevron-down"></i></a>
 					<a href="#">Agriculture<i class="bi bi-chevron-down"></i></a>
 					<a href="#">NRI<i class="bi bi-chevron-down"></i></a>
 					<a href="#">Treasary<i class="bi bi-chevron-down"></i></a>
 					<a href="#">New</a> -->
+				</div>
+				<div class="lower2">
+					<i class="bi bi-search" id="searchicon"></i>
+				</div>
 			</div>
-			<div class="lower2">
-				<i class="bi bi-search" id="searchicon"></i>
-			</div>
-		</div>
-	</nav>
+		</nav>
 
-	<!-- navbar ends here -->
+		<!-- navbar ends here -->
 
-	<!-- Main banner image section start -->
+		<!-- Main banner image section start -->
 
-	<!-- <div class="carousel slide" style="padding: 8px">
+		<!-- <div class="carousel slide" style="padding: 8px">
       <div class="carousel-indicators">
         <button
           type="button"
@@ -511,19 +1129,27 @@
       </button>
     </div> -->
 
-	<div id="carouselExampleIndicators" class="carousel slide overflow-hidden" data-ride="carousel"
-		style="padding: 5px 20px">
-		<ol class="carousel-indicators">
-			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		</ol>
+		<div
+			id="carouselExampleIndicators"
+			class="carousel slide overflow-hidden"
+			data-ride="carousel"
+			style="padding: 5px 20px"
+		>
+			<ol class="carousel-indicators">
+				<li
+					data-target="#carouselExampleIndicators"
+					data-slide-to="0"
+					class="active"
+				></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
 
-		<div class="looking-for-cnt">
-			<div class="above-text">
-				<h3>I am Looking for</h3>
-				<div class="btn-looking-select-ctn">
-					<!-- <div class="btn-group">
+			<div class="looking-for-cnt">
+				<div class="above-text">
+					<h3>I am Looking for</h3>
+					<div class="btn-looking-select-ctn">
+						<!-- <div class="btn-group">
 							<button
 								class="btn dropdown-toggle"
 								type="button"
@@ -543,35 +1169,41 @@
 							</ul>
 						</div> -->
 
-					<select class="form-select looking-for-select" aria-label="What are you looking for">
-						<option selected>Home Loan</option>
-						<option value="1">Car Loan</option>
-						<option value="2">Gold Loan</option>
-						<option value="3">Gold Loan Against Ornaments</option>
-						<option value="3">Deposit Interest Rate</option>
-						<option value="3">Loan Interest Rate</option>
-						<option value="3">Download Forms</option>
-						<option value="3">Helpline</option>
-						<option value="3">BDM Credit Card</option>
-						<option value="3">NETC-Fastag</option>
-						<option value="3">Online Saving Account</option>
-						<option value="3">Co-lending(Digital Landing)</option>
-						<option value="3">Digital Banking</option>
-						<option value="3">Online loans</option>
-						<option value="3">Saving Account</option>
-						<option value="3">Online Locker Application</option>
-						<option value="3">Online Jeevan Praman Patra submission</option>
-						<option value="3">Important Announcment For Shareholder</option>
-						<option value="3">BOM Rewards</option>
-						<option value="3">RE-KYC</option>
-						<option value="3">V-clip</option>
-						<option value="3">Metaverse</option>
-						<option value="3">Nomination</option>
-						<option value="3">Positive Pay System</option>
-					</select>
-				</div>
-				<br />
-				<button type="button" class="btn btn-secondary border-radius-5 pt-1 pb-1" style="
+						<select
+							class="form-select looking-for-select"
+							aria-label="What are you looking for"
+						>
+							<option selected>Home Loan</option>
+							<option value="1">Car Loan</option>
+							<option value="2">Gold Loan</option>
+							<option value="3">Gold Loan Against Ornaments</option>
+							<option value="3">Deposit Interest Rate</option>
+							<option value="3">Loan Interest Rate</option>
+							<option value="3">Download Forms</option>
+							<option value="3">Helpline</option>
+							<option value="3">BDM Credit Card</option>
+							<option value="3">NETC-Fastag</option>
+							<option value="3">Online Saving Account</option>
+							<option value="3">Co-lending(Digital Landing)</option>
+							<option value="3">Digital Banking</option>
+							<option value="3">Online loans</option>
+							<option value="3">Saving Account</option>
+							<option value="3">Online Locker Application</option>
+							<option value="3">Online Jeevan Praman Patra submission</option>
+							<option value="3">Important Announcment For Shareholder</option>
+							<option value="3">BOM Rewards</option>
+							<option value="3">RE-KYC</option>
+							<option value="3">V-clip</option>
+							<option value="3">Metaverse</option>
+							<option value="3">Nomination</option>
+							<option value="3">Positive Pay System</option>
+						</select>
+					</div>
+					<br />
+					<button
+						type="button"
+						class="btn btn-secondary border-radius-5 pt-1 pb-1"
+						style="
 							background: rgb(4, 0, 71);
 							background: linear-gradient(
 								90deg,
@@ -579,53 +1211,76 @@
 								rgba(9, 9, 121, 1) 100%,
 								rgba(0, 212, 255, 1) 100%
 							);
-						">
-					Get Started
-				</button>
+						"
+					>
+						Get Started
+					</button>
+				</div>
 			</div>
-		</div>
 
-		<div class="carousel-inner overflow-hidden w-100">
-			<div class="carousel-item active w-100">
-				<img class="d-block object-fit-cover w-100 h-100 rounded" src="./img/bg2.jpg" alt="First slide"
-					style="max-height: 38rem" />
-				<div class="carousel-caption d-none d-md-block">
-					<h5>First slide label</h5>
-					<p>Some representative placeholder content for the first slide.</p>
+			<div class="carousel-inner overflow-hidden w-100">
+				<div class="carousel-item active w-100">
+					<img
+						class="d-block object-fit-cover w-100 h-100 rounded"
+						src="./img/bg2.jpg"
+						alt="First slide"
+						style="max-height: 38rem"
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h5>First slide label</h5>
+						<p>Some representative placeholder content for the first slide.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img
+						class="d-block object-fit-cover w-100 rounded"
+						src="./img/bg2.jpg"
+						style="max-height: 38rem"
+						alt="Second slide"
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Second slide label</h5>
+						<p>Some representative placeholder content for the first slide.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img
+						class="d-block object-fit-cover w-100 rounded"
+						src="./img/bg2.jpg"
+						style="max-height: 38rem"
+						alt="Third slide"
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Third slide label</h5>
+						<p>Some representative placeholder content for the first slide.</p>
+					</div>
 				</div>
 			</div>
-			<div class="carousel-item">
-				<img class="d-block object-fit-cover w-100 rounded" src="./img/bg2.jpg" style="max-height: 38rem"
-					alt="Second slide" />
-				<div class="carousel-caption d-none d-md-block">
-					<h5>Second slide label</h5>
-					<p>Some representative placeholder content for the first slide.</p>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img class="d-block object-fit-cover w-100 rounded" src="./img/bg2.jpg" style="max-height: 38rem"
-					alt="Third slide" />
-				<div class="carousel-caption d-none d-md-block">
-					<h5>Third slide label</h5>
-					<p>Some representative placeholder content for the first slide.</p>
-				</div>
-			</div>
+			<a
+				class="carousel-control-prev"
+				href="#carouselExampleIndicators"
+				role="button"
+				data-slide="prev"
+			>
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a
+				class="carousel-control-next"
+				href="#carouselExampleIndicators"
+				role="button"
+				data-slide="next"
+			>
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
-		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-	<!-- Main banner image section end -->
+		<!-- Main banner image section end -->
 
-	<!-- all links section start -->
-	<div class="container">
-		<div class="row">
-			<!-- <div class="col-6">
+		<!-- all links section start -->
+		<div class="container">
+			<div class="row">
+				<!-- <div class="col-6">
 					<h3>What are you looking for?</h3>
 					<ul class="reflinks">
 						<li><a href="#">Link 1</a></li>
@@ -640,87 +1295,87 @@
 						<li><a href="#">Link 5</a></li>
 					</ul>
 				</div> -->
-			<div class="col-6">
-				<h3>Ancillary Products</h3>
-				<ul class="reflinks">
-					<li><a href="#">PF Schemes</a></li>
-					<li><a href="#">LC/BG Confirmation</a></li>
-					<li><a href="#">Insaurance</a></li>
-					<li><a href="#">Equity Trading Services</a></li>
-					<li><a href="#">Locker</a></li>
-					<li><a href="#">Soverign Gold Bound Scheme</a></li>
-					<li><a href="#">Metco-Trustee co</a></li>
-					<li><a href="#">Senior Citizen Saving Scheme</a></li>
-					<li><a href="#">Suhkanya Samridhi Yojna</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<!-- all links section end -->
-
-	<!-- image gallery start -->
-	<div class="container text-center">
-		<div class="row">
-			<div class="col-8">
-				<span class="h5">Photo Gallery</span>
-			</div>
-			<div class="col-4">
-				<span class="h5">From the Desk of Top Management</span>
-			</div>
-		</div>
-		<div class="row r">
-			<div class="col-8">
-				<div class="row r-1">
-					<div class="image-text col-4">
-						<div class="text-img">
-							<h5 style="color: #716be7">Financial Results FY2022-24J</h5>
-						</div>
-						<img src="./img/pic1.jpg" alt="" class="" />
-					</div>
-
-					<div class="image-text col-4">
-						<div class="text-img">
-							<h5 style="color: #716be7">Text 1 for image 1</h5>
-						</div>
-						<img src="./img/pic1.jpg" alt="" class="" />
-					</div>
-					<div class="image-text col-4">
-						<div class="text-img">
-							<h5 style="color: #716be7">Text 1 for image 1</h5>
-						</div>
-						<img src="./img/pic1.jpg" alt="" class="" />
-					</div>
-				</div>
-				<div class="row r-2">
-					<div class="image-text col-4">
-						<div class="text-img">
-							<h5 style="color: #716be7">Text 1 for image 1</h5>
-						</div>
-						<img src="./img/pic1.jpg" alt="" class="" />
-					</div>
-					<div class="image-text col-4">
-						<div class="text-img">
-							<h5 style="color: #716be7">Text 1 for image 1</h5>
-						</div>
-						<img src="./img/pic1.jpg" alt="" class="" />
-					</div>
-					<div class="image-text col-4">
-						<div class="text-img">
-							<h5 style="color: #716be7">Text 1 for image 1</h5>
-						</div>
-						<img src="./img/pic1.jpg" alt="" class="" />
-					</div>
+				<div class="col-6">
+					<h3>Ancillary Products</h3>
+					<ul class="reflinks">
+						<li><a href="#">PF Schemes</a></li>
+						<li><a href="#">LC/BG Confirmation</a></li>
+						<li><a href="#">Insaurance</a></li>
+						<li><a href="#">Equity Trading Services</a></li>
+						<li><a href="#">Locker</a></li>
+						<li><a href="#">Soverign Gold Bound Scheme</a></li>
+						<li><a href="#">Metco-Trustee co</a></li>
+						<li><a href="#">Senior Citizen Saving Scheme</a></li>
+						<li><a href="#">Suhkanya Samridhi Yojna</a></li>
+					</ul>
 				</div>
 			</div>
-			<div class="col-4">
-				<img src="./img/pic-2.jpg" alt="" class="col-12" />
+		</div>
+		<!-- all links section end -->
+
+		<!-- image gallery start -->
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-8">
+					<span class="h5">Photo Gallery</span>
+				</div>
+				<div class="col-4">
+					<span class="h5">From the Desk of Top Management</span>
+				</div>
+			</div>
+			<div class="row r">
+				<div class="col-8">
+					<div class="row r-1">
+						<div class="image-text col-4">
+							<div class="text-img">
+								<h5 class="text-img-h5">Financial Results FY2022-24J</h5>
+							</div>
+							<img src="./img/pic1.jpg" alt="" class="" />
+						</div>
+
+						<div class="image-text col-4">
+							<div class="text-img">
+								<h5 class="text-img-h5">Text 1 for image 1</h5>
+							</div>
+							<img src="./img/pic1.jpg" alt="" class="" />
+						</div>
+						<div class="image-text col-4">
+							<div class="text-img">
+								<h5 class="text-img-h5">Text 1 for image 1</h5>
+							</div>
+							<img src="./img/pic1.jpg" alt="" class="" />
+						</div>
+					</div>
+					<div class="row r-2">
+						<div class="image-text col-4">
+							<div class="text-img">
+								<h5 class="text-img-h5">Text 1 for image 1</h5>
+							</div>
+							<img src="./img/pic1.jpg" alt="" class="" />
+						</div>
+						<div class="image-text col-4">
+							<div class="text-img">
+								<h5 class="text-img-h5">Text 1 for image 1</h5>
+							</div>
+							<img src="./img/pic1.jpg" alt="" class="" />
+						</div>
+						<div class="image-text col-4">
+							<div class="text-img">
+								<h5 class="text-img-h5">Text 1 for image 1</h5>
+							</div>
+							<img src="./img/pic1.jpg" alt="" class="" />
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<img src="./img/pic-2.jpg" alt="" class="col-12" />
+				</div>
 			</div>
 		</div>
-	</div>
-	<!-- image gallery ends -->
+		<!-- image gallery ends -->
 
-	<!-- three part section starts -->
-	<!-- <div class="container text-center item-center">
+		<!-- three part section starts -->
+		<!-- <div class="container text-center item-center">
 			<div class="row">
 				<div class="carousel slide col-4 div">
 					<h5>Carousel 1</h5>
@@ -828,71 +1483,114 @@
 			</div>
 		</div> -->
 
-	<div class="containers text-center item-center">
-		<div class="big-box overflow-hidden p-0 px-2 d-flex justify-content-center align-items-center">
-			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img class="d-block object-fit-cover w-100" src="./img/img-4.png" alt="" />
+		<div class="containers text-center item-center">
+			<div
+				class="big-box overflow-hidden p-0 px-2 d-flex justify-content-center align-items-center"
+			>
+				<div
+					id="carouselExampleControls"
+					class="carousel slide"
+					data-ride="carousel"
+				>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img
+								class="d-block object-fit-cover w-100"
+								src="./img/img-4.png"
+								alt=""
+							/>
+						</div>
+						<div class="carousel-item">
+							<img
+								class="d-block object-fit-cover w-100"
+								src="./img/img-4.png"
+								alt=""
+							/>
+						</div>
+						<div class="carousel-item">
+							<img
+								class="d-block object-fit-cover w-100"
+								src="./img/img-4.png"
+								alt=""
+							/>
+						</div>
 					</div>
-					<div class="carousel-item">
-						<img class="d-block object-fit-cover w-100" src="./img/img-4.png" alt="" />
-					</div>
-					<div class="carousel-item">
-						<img class="d-block object-fit-cover w-100" src="./img/img-4.png" alt="" />
-					</div>
+					<a
+						class="carousel-control-prev"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a
+						class="carousel-control-next"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
 			</div>
-		</div>
-		<div class="big-box">
-			<div class="mid-box">
-				<h5 style="margin-bottom: 20px">SLBC Maharashtra</h5>
+			<div class="big-box">
+				<div class="mid-box">
+					<h5 style="margin-bottom: 20px">SLBC Maharashtra</h5>
 
-				<div class="link-box">
-					<div class="link-items">About Us</div>
-					<div class="link-items">Banking Network</div>
-					<div class="link-items">Data Submission</div>
-					<div class="link-items">Financial Inclusion</div>
-					<div class="link-items">Government Sponsered Programs</div>
-					<div class="link-items">Lead Bank Schemes</div>
-					<div class="link-items">Miscillineous</div>
-					<div class="link-items">Photo Gallery</div>
-					<div class="link-items">SLBC Meeting</div>
-					<div class="link-items">State Profile</div>
-					<div class="link-items">Useful Links</div>
+					<div class="link-box">
+						<div class="link-items">About Us</div>
+						<div class="link-items">Banking Network</div>
+						<div class="link-items">Data Submission</div>
+						<div class="link-items">Financial Inclusion</div>
+						<div class="link-items">Government Sponsered Programs</div>
+						<div class="link-items">Lead Bank Schemes</div>
+						<div class="link-items">Miscillineous</div>
+						<div class="link-items">Photo Gallery</div>
+						<div class="link-items">SLBC Meeting</div>
+						<div class="link-items">State Profile</div>
+						<div class="link-items">Useful Links</div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="big-box">
-			<div class="d-flex pb-3 justify-content-around align-items-center">
-				<h5>Offers for you</h5>
-				<div>
-					<button class="btn btn-outline-primary btn-xsm">
-						<< /button>
-							<button class="btn btn-outline-primary btn-xsm">></button>
-				</div>
-			</div>
-			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img class="d-block object-fit-cover w-100" src="./img/img-4.png" alt="" />
-					</div>
-					<div class="carousel-item">
-						<img class="d-block object-fit-cover w-100" src="./img/img-4.png" alt="" />
-					</div>
-					<div class="carousel-item">
-						<img class="d-block object-fit-cover w-100" src="./img/img-4.png" alt="" />
+			<div class="big-box">
+				<div class="d-flex pb-3 justify-content-around align-items-center">
+					<h5>Offers for you</h5>
+					<div>
+						<button class="btn btn-outline-primary btn-xsm"><</button>
+						<button class="btn btn-outline-primary btn-xsm">></button>
 					</div>
 				</div>
-				<!-- <a
+				<div
+					id="carouselExampleControls"
+					class="carousel slide"
+					data-ride="carousel"
+				>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img
+								class="d-block object-fit-cover w-100"
+								src="./img/img-4.png"
+								alt=""
+							/>
+						</div>
+						<div class="carousel-item">
+							<img
+								class="d-block object-fit-cover w-100"
+								src="./img/img-4.png"
+								alt=""
+							/>
+						</div>
+						<div class="carousel-item">
+							<img
+								class="d-block object-fit-cover w-100"
+								src="./img/img-4.png"
+								alt=""
+							/>
+						</div>
+					</div>
+					<!-- <a
             class="carousel-control-prev"
             href="#carouselExampleControls"
             role="button"
@@ -910,234 +1608,255 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a> -->
-			</div>
-			<div class="d-flex pt-3 justify-content-end align-items-center">
-				<a href="#" style="color: #716be7; font-size: 14px; font-weight: 500">Explore all Offers <i
-						class="fas fa-arrow-right"></i></a>
+				</div>
+				<div class="d-flex pt-3 justify-content-end align-items-center">
+					<a href="#" style="color: #716be7; font-size: 14px; font-weight: 500"
+						>Explore all Offers <i class="fas fa-arrow-right"></i
+					></a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<!-- three part section ends -->
+		<!-- three part section ends -->
 
-	<!-- five floating option -->
-	<div class="floating-options-cnt">
-		<button class="d-flex flex-column justify-content-center align-items-center">
-			<i class="fas fa-desktop"></i>
-			Internet Banking
-		</button>
-		<button class="d-flex flex-column justify-content-center align-items-center">
-			<i class="fas fa-percentage"></i>
-			Interest Rate
-		</button>
-		<button class="d-flex flex-column justify-content-center align-items-center">
-			<i class="fas fa-globe-asia"></i>
-			Apply Online
-		</button>
-		<button class="d-flex flex-column justify-content-center align-items-center">
-			<i class="fas fa-file-download"></i>
-			Downloads
-		</button>
-		<button class="d-flex flex-column justify-content-center align-items-center">
-			<i class="fas fa-calculator"></i>
-			Calculators
-		</button>
-	</div>
-	<!-- five floating option ends here-->
+		<!-- five floating option -->
+		<div class="floating-options-cnt">
+			<button
+				class="d-flex flex-column justify-content-center align-items-center"
+			>
+				<i class="fas fa-desktop"></i>
+				Internet Banking
+			</button>
+			<button
+				class="d-flex flex-column justify-content-center align-items-center"
+			>
+				<i class="fas fa-percentage"></i>
+				Interest Rate
+			</button>
+			<button
+				class="d-flex flex-column justify-content-center align-items-center"
+			>
+				<i class="fas fa-globe-asia"></i>
+				Apply Online
+			</button>
+			<button
+				class="d-flex flex-column justify-content-center align-items-center"
+			>
+				<i class="fas fa-file-download"></i>
+				Downloads
+			</button>
+			<button
+				class="d-flex flex-column justify-content-center align-items-center"
+			>
+				<i class="fas fa-calculator"></i>
+				Calculators
+			</button>
+		</div>
+		<!-- five floating option ends here-->
 
-	<!-- footer section starts -->
-	<footer>
-		<div class="foot-container">
-			<div class="row quickLinks">
-				<div class="col-2 linkBox">
-					<i class="fas fa-image"></i>
-					<span class="linkText">Service Charges</span>
+		<!-- footer section starts -->
+		<footer>
+			<div class="foot-container">
+				<div class="row quickLinks">
+					<div class="col-2 linkBox">
+						<i class="fas fa-image"></i>
+						<span class="linkText">Service Charges</span>
+					</div>
+					<div class="col-2 linkBox">
+						<i class="fas fa-image"></i>
+						<span class="linkText">Public Information</span>
+					</div>
+					<div class="col-2 linkBox">
+						<i class="fas fa-image"></i>
+						<span class="linkText">Gallery</span>
+					</div>
+					<div class="col-2 linkBox">
+						<i class="fas fa-image"></i>
+						<span class="linkText">Social Activity</span>
+					</div>
+					<div class="col-2 linkBox">
+						<i class="fas fa-image"></i>
+						<span class="linkText">Assests For Sale</span>
+					</div>
+					<div class="col-2 linkBox">
+						<i class="fas fa-image"></i>
+						<span class="linkText">Tenders</span>
+					</div>
 				</div>
-				<div class="col-2 linkBox">
-					<i class="fas fa-image"></i>
-					<span class="linkText">Public Information</span>
-				</div>
-				<div class="col-2 linkBox">
-					<i class="fas fa-image"></i>
-					<span class="linkText">Gallery</span>
-				</div>
-				<div class="col-2 linkBox">
-					<i class="fas fa-image"></i>
-					<span class="linkText">Social Activity</span>
-				</div>
-				<div class="col-2 linkBox">
-					<i class="fas fa-image"></i>
-					<span class="linkText">Assests For Sale</span>
-				</div>
-				<div class="col-2 linkBox">
-					<i class="fas fa-image"></i>
-					<span class="linkText">Tenders</span>
-				</div>
-			</div>
-			<div class="footer-nav-container">
-				<div>
-					<div class="footerRefLinksContainer">
-						<div class="footer-nav">
-							<div class="">
-								<h3 class="footerTitle">
-									Disclosure
-									<hr />
-								</h3>
-								<ul class="footerRefLinks">
-									<li><a href="#">Basel || Disclosure</a></li>
-									<li><a href="#">Basel ||| Disclosure</a></li>
-									<li><a href="#">BRSR Disclosure</a></li>
-								</ul>
-							</div>
-							<div class="">
-								<h3 class="footerTitle">
-									Compliance
-									<hr />
-								</h3>
-								<ul class="footerRefLinks">
-									<li><a href="#">RTI</a></li>
-									<li><a href="#">Replies to RTI Application</a></li>
-									<li><a href="#">BSCBI</a></li>
-									<li><a href="#">Citizen Charter</a></li>
-									<li><a href="#">ABBFF Guidelines</a></li>
-									<li><a href="#">PIDPI</a></li>
-									<li><a href="#">Independent External monitors(IEMs)</a></li>
-								</ul>
-							</div>
-							<div class="">
-								<h3 class="footerTitle">
-									Employee Corner
-									<hr />
-								</h3>
-								<ul class="footerRefLinks">
-									<li><a href="#">Reservation Roaster</a></li>
-									<li><a href="#">Retired Employee's Corner</a></li>
-									<li><a href="#">Staff Pension </a></li>
-									<li>
-										<a href="#">Life Certificate Format for Staff Pensioner</a>
-									</li>
-									<li>
-										<a href="#">Bank Employee Pension Revision of Dearness Relief
-										</a>
-									</li>
-								</ul>
-							</div>
-							<div class="">
-								<h3 class="footerTitle">
-									Financial Inclusion/Pradhanmantri Yojna
-									<hr />
-								</h3>
-								<ul class="footerRefLinks">
-									<li><a href="#">PMDY</a></li>
-									<li><a href="#">PMRY Subsidy Claim 07-08</a></li>
-									<li><a href="#">PMDY FAQs</a></li>
-									<li><a href="#">Best Performing BC Agents</a></li>
-								</ul>
-							</div>
-							<div class="">
-								<h3 class="footerTitle">
-									Important Links
-									<hr />
-								</h3>
-								<ul class="footerRefLinks">
-									<li><a href="#">Is your Bank account KYC complaint?</a></li>
-									<li><a href="#">Bank's wilful Defaulters</a></li>
-									<li><a href="#">State Wise Holiday</a></li>
-									<li><a href="#">RBI Kehta Hai</a></li>
-									<li><a href="#">Sachet Portal</a></li>
-									<li><a href="#">Calendar 2023</a></li>
-									<li><a href="#">Blogs</a></li>
-								</ul>
+				<div class="footer-nav-container">
+					<div>
+						<div class="footerRefLinksContainer">
+							<div class="footer-nav">
+								<div class="">
+									<h3 class="footerTitle">
+										Disclosure
+										<hr />
+									</h3>
+									<ul class="footerRefLinks">
+										<li><a href="#">Basel || Disclosure</a></li>
+										<li><a href="#">Basel ||| Disclosure</a></li>
+										<li><a href="#">BRSR Disclosure</a></li>
+									</ul>
+								</div>
+								<div class="">
+									<h3 class="footerTitle">
+										Compliance
+										<hr />
+									</h3>
+									<ul class="footerRefLinks">
+										<li><a href="#">RTI</a></li>
+										<li><a href="#">Replies to RTI Application</a></li>
+										<li><a href="#">BSCBI</a></li>
+										<li><a href="#">Citizen Charter</a></li>
+										<li><a href="#">ABBFF Guidelines</a></li>
+										<li><a href="#">PIDPI</a></li>
+										<li><a href="#">Independent External monitors(IEMs)</a></li>
+									</ul>
+								</div>
+								<div class="">
+									<h3 class="footerTitle">
+										Employee Corner
+										<hr />
+									</h3>
+									<ul class="footerRefLinks">
+										<li><a href="#">Reservation Roaster</a></li>
+										<li><a href="#">Retired Employee's Corner</a></li>
+										<li><a href="#">Staff Pension </a></li>
+										<li>
+											<a href="#"
+												>Life Certificate Format for Staff Pensioner</a
+											>
+										</li>
+										<li>
+											<a href="#"
+												>Bank Employee Pension Revision of Dearness Relief
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="">
+									<h3 class="footerTitle">
+										Financial Inclusion/Pradhanmantri Yojna
+										<hr />
+									</h3>
+									<ul class="footerRefLinks">
+										<li><a href="#">PMDY</a></li>
+										<li><a href="#">PMRY Subsidy Claim 07-08</a></li>
+										<li><a href="#">PMDY FAQs</a></li>
+										<li><a href="#">Best Performing BC Agents</a></li>
+									</ul>
+								</div>
+								<div class="">
+									<h3 class="footerTitle">
+										Important Links
+										<hr />
+									</h3>
+									<ul class="footerRefLinks">
+										<li><a href="#">Is your Bank account KYC complaint?</a></li>
+										<li><a href="#">Bank's wilful Defaulters</a></li>
+										<li><a href="#">State Wise Holiday</a></li>
+										<li><a href="#">RBI Kehta Hai</a></li>
+										<li><a href="#">Sachet Portal</a></li>
+										<li><a href="#">Calendar 2023</a></li>
+										<li><a href="#">Blogs</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="footer-nav-below">
-				<div class="footer-nav-below-flex">
-					<div class="footerCol">
-						<h3 class="footerTitle">
-							Get in touch
-							<hr />
-						</h3>
-						<p class="footerDesc">
-							Bank of Maharashtra Head Office<br />
-							Lokmangal, 1501, Shivajinagar<br />
-							Pune-411005,<br />
-							020 - 25514501 to 12
-						</p>
-						<ul class="icons">
-							<li><a href="#" class="fab fa-whatsapp"></a></li>
-							<li><a href="#" class="fab fa-facebook"></a></li>
-							<li><a href="#" class="fab fa-twitter"></a></li>
-							<li><a href="#" class="fab fa-instagram"></a></li>
-							<li><a href="#" class="fab fa-linkedin"></a></li>
-							<li><a href="#" class="fab fa-pinterest"></a></li>
-						</ul>
-					</div>
-					<div class="footerCol">
-						<h3 class="footerTitle">
-							Important
-							<hr />
-						</h3>
-						<p class="footerDesc">
-							Bank of Maharashtra never ask for Bank account details for any
-							purpose through phone call/email/SMS.<br />
-							Bank appeals to all the customers not to respond to such phone
-							call/email/SMS and not to share their bank account detail with
-							any one for any purpose. Never share your CVV/ PIN No. of
-							Debit/Credit card to anyone.
-						</p>
-						<ul class="important-nav">
-							<li><a href="#">Disclaimer</a></li>
-							<li>
-								<div class="vl"></div>
-							</li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li>
-								<div class="vl"></div>
-							</li>
-							<li><a href="#">Cookies Policy</a></li>
-							<li>
-								<div class="vl"></div>
-							</li>
-							<li><a href="#">Sitemap</a></li>
-						</ul>
-						<a href="#" class="footerLink">Click here to visit last visited page</a>
-					</div>
-					<div class="footerCol">
-						<h3 class="footerTitle">
-							Our Services
-							<hr />
-						</h3>
-						<div class="row footerImgLinks">
-							<a href="#" class="col-12 img">
-								<img src="./img/bg.png" alt="" />
-							</a>
-							<a href="#" class="col-12 img">
-								<img src="./img/bg.png" alt="" />
-							</a>
+				<div class="footer-nav-below">
+					<div class="footer-nav-below-flex">
+						<div class="footerCol">
+							<h3 class="footerTitle">
+								Get in touch
+								<hr />
+							</h3>
+							<p class="footerDesc">
+								Bank of Maharashtra Head Office<br />
+								Lokmangal, 1501, Shivajinagar<br />
+								Pune-411005,<br />
+								020 - 25514501 to 12
+							</p>
+							<ul class="icons">
+								<li><a href="#" class="fab fa-whatsapp"></a></li>
+								<li><a href="#" class="fab fa-facebook"></a></li>
+								<li><a href="#" class="fab fa-twitter"></a></li>
+								<li><a href="#" class="fab fa-instagram"></a></li>
+								<li><a href="#" class="fab fa-linkedin"></a></li>
+								<li><a href="#" class="fab fa-pinterest"></a></li>
+							</ul>
+						</div>
+						<div class="footerCol">
+							<h3 class="footerTitle">
+								Important
+								<hr />
+							</h3>
+							<p class="footerDesc">
+								Bank of Maharashtra never ask for Bank account details for any
+								purpose through phone call/email/SMS.<br />
+								Bank appeals to all the customers not to respond to such phone
+								call/email/SMS and not to share their bank account detail with
+								any one for any purpose. Never share your CVV/ PIN No. of
+								Debit/Credit card to anyone.
+							</p>
+							<ul class="important-nav">
+								<li><a href="#">Disclaimer</a></li>
+								<li>
+									<div class="vl"></div>
+								</li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li>
+									<div class="vl"></div>
+								</li>
+								<li><a href="#">Cookies Policy</a></li>
+								<li>
+									<div class="vl"></div>
+								</li>
+								<li><a href="#">Sitemap</a></li>
+							</ul>
+							<a href="#" class="footerLink"
+								>Click here to visit last visited page</a
+							>
+						</div>
+						<div class="footerCol">
+							<h3 class="footerTitle">
+								Our Services
+								<hr />
+							</h3>
+							<div class="row footerImgLinks">
+								<a href="#" class="col-12 img">
+									<img src="./img/bg.png" alt="" />
+								</a>
+								<a href="#" class="col-12 img">
+									<img src="./img/bg.png" alt="" />
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
+				<div class="copyright-cntr copyright">
+					<p>@2023 Bank of Maharashtra || All right reserved</p>
+				</div>
 			</div>
-			<div class="copyright-cntr copyright">
-				<p>@2023 Bank of Maharashtra || All right reserved</p>
-			</div>
-		</div>
-	</footer>
-	<!-- footer section ends -->
+		</footer>
+		<!-- footer section ends -->
 
-	<!-- Bootstrap js cdn links -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-		crossorigin="anonymous"></script>
-	<script src="/js/index.js"></script>
-</body>
-
+		<!-- Bootstrap js cdn links -->
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+		<script src="/js/index.js"></script>
+	</body>
 </html>
