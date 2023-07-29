@@ -194,6 +194,10 @@ ul {
   font-weight: 600;
 }
 
+.lower1 .ham{
+  display: none;
+}
+
 .lower2 i {
   margin-right: .8em;
   font-size: larger;
@@ -356,6 +360,10 @@ ul {
   align-items: center;
   justify-content: center;
   padding: 1.4em;
+}
+
+.linkText{
+  text-align: center;
 }
 
 .linkBox:nth-child(1),
@@ -766,4 +774,101 @@ footer .container {
 .floating-options-cnt i {
   font-size: 2em;
   margin-bottom: .2em;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .navbar{
+    display: none !important;
+  }  
+
+  .lower1 a{
+    display: none;
+  }
+
+  .lower1 .ham{
+    display: block;
+  }
+
+  .boxex3{
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .big-box{
+    min-width: 265px;
+    flex: 1;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .footerTitle{
+    text-align: center;
+  }
+
+  .footerRefLinks{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footerTitle hr{
+    width: 100%;
+  }
+
+  .footer-nav-below-flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+
+  .looking-for-cnt{
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+  }
+
+  .looking-for-cnt h3{
+    font-size: 1rem;
+  }
+
+  .big-box{
+    flex: 1;
+  }
+
+  .big-box:last-child{
+    flex: 1;
+  }
+
+  .reflinks{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .big-box{
+    flex: 1;
+  }
+
+  .boxex3{
+    margin: 20px !important;
+  }
+
+  .carousel-item img{
+    object-position: center;
+    position: relative;
+    max-height: 350px;
+    object-fit: cover;
+  }
 }
